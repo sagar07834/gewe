@@ -1,0 +1,2 @@
+javascriptCopy code
+import { ethers } from 'ethers'; if (typeof window.ethereum !== 'undefined') { const provider = new ethers.providers.Web3Provider(window.ethereum); provider.getSigner(); } else { console.log('Wallet not detected. Please install and unlock it.'); } 
